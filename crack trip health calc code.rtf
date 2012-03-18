@@ -1,0 +1,31 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf410
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 if ( damage > 0 && player-PowerUpActive( POWERUP_HASTE ) ); \{\
+damage = damage / 2;\
+\}\
+\
+\
+Get the damage\
+if power up is active divide it in half then do damage\
+after 30 seconds do other half of damage\
+\
+\
+\
+inventory.maxHealth = health * 0.5 + health\
+\
+if ( player->ClearPowerup( i ) ) \{\
+health = health / 2;\
+\}\
+\
+if ( inventory.powerupEndTime[i] < gameLocal.time\
+\
+\
+\
+Flash the player's screen with color:\
+\
+playerView.Flash( colorWhite, 140 );\
+}
